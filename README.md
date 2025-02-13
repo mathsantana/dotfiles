@@ -7,7 +7,7 @@ Configuration files.
 ### Nvim
 
 ```bash
-    ln -s /path/to/dotfiles ~/config/nvim
+    ln -s /path/to/dotfiles/nvim ~/.config/nvim
 ```
 
 
