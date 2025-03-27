@@ -47,3 +47,8 @@ vim.keymap.set("n", "<leader>cfg", "<cmd>e ~/dotfiles/nvim/init.lua<CR>");
 vim.keymap.set("n", "<leader>so", function()
 	vim.cmd("so")
 end)
+
+vim.keymap.set('n', '<C-e>', function()
+	vim.cmd("term " .. vim.fn.input("Command > "))
+end)
+
